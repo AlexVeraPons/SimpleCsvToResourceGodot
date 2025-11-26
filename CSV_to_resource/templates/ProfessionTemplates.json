@@ -1,0 +1,48 @@
+{
+	"class_name": "NewResource",
+	"csv_path": "C:/Users/alexa/OneDrive/Documents/GitHub/KerNethalasGodot/data/Professions/KerNethalasGodot_Professions_translation.csv",
+	"variables": [
+		{
+			"extra": "",
+			"include": true,
+			"name": "Profession",
+			"type": "Name"
+		},
+		{
+			"extra": "",
+			"include": false,
+			"name": "Available",
+			"type": "bool"
+		},
+		{
+			"extra": ";",
+			"include": true,
+			"name": "Description",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Race Limitation",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Starting Equipment",
+			"type": "String"
+		},
+		{
+			"extra": ",",
+			"include": true,
+			"name": "Starting Items",
+			"type": "PackedStringArray"
+		},
+		{
+			"extra": ",",
+			"include": true,
+			"name": "Starting Skills",
+			"type": "PackedStringArray"
+		}
+	]
+}

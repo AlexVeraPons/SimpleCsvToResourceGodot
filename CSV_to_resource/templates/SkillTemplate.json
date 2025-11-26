@@ -1,0 +1,108 @@
+{
+	"class_name": "SkillResource",
+	"csv_path": "C:/Users/alexa/OneDrive/Documents/GitHub/KerNethalasGodot/data/Skills/KerNethalasGodot_Skills_translation.csv",
+	"variables": [
+		{
+			"extra": "",
+			"include": true,
+			"name": "Skill",
+			"type": "Name"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Available",
+			"type": "bool"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Description",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Skill Effects",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Skill Effect Data",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Related Attribute",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Execution Percentage",
+			"type": "int"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Type",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Activation Type",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Stance Priority",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Range",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Dice Throw",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Upgrade",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "BP Cost",
+			"type": "int"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Level Cap",
+			"type": "int"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Target",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Uses",
+			"type": "String"
+		}
+	]
+}

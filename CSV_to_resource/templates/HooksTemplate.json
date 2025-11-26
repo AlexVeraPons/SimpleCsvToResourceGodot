@@ -1,0 +1,42 @@
+{
+	"class_name": "HooksResource",
+	"csv_path": "C:/Users/alexa/OneDrive/Documents/GitHub/KerNethalasGodot/data/Hooks/KerNethalasGodot_Hooks_translation.csv",
+	"variables": [
+		{
+			"extra": "",
+			"include": true,
+			"name": "Hook",
+			"type": "Name"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Available",
+			"type": "bool"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Description",
+			"type": "String"
+		},
+		{
+			"extra": "",
+			"include": true,
+			"name": "Hook Percentage",
+			"type": "String"
+		},
+		{
+			"extra": ",",
+			"include": true,
+			"name": "Place Holders",
+			"type": "PackedStringArray"
+		},
+		{
+			"extra": "|",
+			"include": true,
+			"name": "Result Text",
+			"type": "PackedStringArray"
+		}
+	]
+}

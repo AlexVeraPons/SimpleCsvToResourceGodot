@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6juac15owuj0"]
+
+[ext_resource type="Theme" uid="uid://b71vhddqhgqdg" path="res://addons/CSV_to_resource/csv_to_resource_scene.tres" id="1_3efbi"]
+[ext_resource type="Script" uid="uid://6ybk0a0jky72" path="res://addons/CSV_to_resource/result_variable.gd" id="2_ndleg"]
+
+[node name="ResultVariable" type="HBoxContainer" node_paths=PackedStringArray("name_label", "type_selector", "include_button", "extra_input")]
+theme = ExtResource("1_3efbi")
+theme_override_constants/separation = 30
+script = ExtResource("2_ndleg")
+name_label = NodePath("variable name")
+type_selector = NodePath("type dropdown")
+include_button = NodePath("should include")
+extra_input = NodePath("ExtraInput")
+
+[node name="variable name" type="Label" parent="."]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+text = "CLASS_NAME"
+clip_text = true
+
+[node name="type dropdown" type="OptionButton" parent="."]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+selected = 0
+item_count = 5
+popup/item_0/text = "String"
+popup/item_0/id = 0
+popup/item_1/text = "int"
+popup/item_1/id = 1
+popup/item_2/text = "float"
+popup/item_2/id = 2
+popup/item_3/text = "bool"
+popup/item_3/id = 3
+popup/item_4/text = "PackedStringArray"
+popup/item_4/id = 4
+
+[node name="should include" type="CheckButton" parent="."]
+custom_minimum_size = Vector2(80, 0)
+layout_mode = 2
+button_pressed = true
+
+[node name="ExtraInput" type="LineEdit" parent="."]
+visible = false
+custom_minimum_size = Vector2(200, 0)
+layout_mode = 2
+theme = ExtResource("1_3efbi")
