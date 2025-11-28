@@ -49,6 +49,12 @@ Choose what you want to generate:
 *   **Selective Export**: Choose to generate only the script, only the resources, or both.
 *   **Progress Feedback**: Visual progress bar for large exports.
 
+
 ## Planned features if desired 
 *  Custom type
 *  Modify existing resources of type
+*  Auto importing when updating csv
+*  ChangeColumnNames
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
